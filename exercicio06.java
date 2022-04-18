@@ -12,7 +12,7 @@ public class exercicio06 {
         double cotacao = leitor.nextDouble();
         System.out.print("Insira o valor a ser covertido: ");
         double dolar = leitor.nextDouble();
-        double resultado = dolar / cotacao;
+        double resultado = dolar * cotacao;
         System.out.println("O valor equivale a "+resultado+" reais.");
 
     }
